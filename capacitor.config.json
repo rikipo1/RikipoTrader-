@@ -1,0 +1,11 @@
+{
+  "appId": "com.rikipo.trader",
+  "appName": "Rikipo Trader",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

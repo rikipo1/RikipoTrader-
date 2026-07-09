@@ -1,0 +1,19 @@
+{
+  "name": "rikipo-trader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rikipo Trader — analiza confluence, sygnały, backtest, dane na żywo",
+  "scripts": {
+    "sync": "cap sync android",
+    "copy": "cap copy android",
+    "add:android": "cap add android",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
